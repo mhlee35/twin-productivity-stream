@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "twin-productivity-stream"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+packages = []
+
+[tool.poetry.dependencies]
+python = "^3.12"
+fastapi = "^0.116.1"
+uvicorn = "^0.35"
+roboflow = "^1.2.0"
+supervision = "^0.18.0"
+opencv-python = "^4.8.0"
+loguru = "^0.7.0"
+websockets = "^15.0.1"
+wsproto = "^1.2.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
